@@ -22,7 +22,17 @@
   <link href="css/resume.css" rel="stylesheet"> <!--change to min.css -->
   
   <!-- Google Analytics -->
-  <script src="js/google-analytics.js"></script>
+  <!-- <script src="js/google-analytics.js"></script> -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-89455391-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-89455391-1');
+	</script>
+
 
 </head>
 
@@ -60,6 +70,9 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#testimonial">Testimonial</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>		
       </ul>
     </div>
@@ -72,23 +85,10 @@
         <h1 class="mb-0">Rajanand
           <span class="text-primary">Ilangovan</span>
         </h1>
-        <div class="subheading mb-5"><b>Data warehouse & Business Intelligence Engineer</b> · Bangalore, India · <a href="mailto:hello@rajanand.org">hello@rajanand.org</a>
+        <div class="subheading mb-5"><b>Data warehouse & Business Intelligence Engineer</b> <!--· Bangalore, India · <a href="mailto:hello@rajanand.org">hello@rajanand.org</a> -->
         </div>
         <p class="lead mb-5">I have more than 8+ years of experience in designing and developing databases for transaction systems and data warehouse for analytical system. I also have a hands on experience in creating visualizations that communicate the message to various business users. Knowledgable in cloud computing and advanced analytics.</p>
-        <div class="social-icons">
-          <a href="http://link.rajanand.org/linkedin">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="http://link.rajanand.org/github">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="http://link.rajanand.org/twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="http://link.rajanand.org/facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a> 
-        </div>
+
       </div>
     </section>
 
@@ -279,7 +279,7 @@
           <li><i class="fa-li fa fa-trophy text-warning"></i>Tableau Desktop Specialist (In Progress ⏳ )</li>
         </ul>
 		
-		<h3 class="mb-3">Courses</h3>
+		<h3 class="mt-5">Courses</h3>
 		<!-- <div class="subheading mb-2">Coursera</div>	-->	
 		<ul class="fa-ul mb-0">
 		  <li><i class="fa-li fas fa-bookmark"></i>2019-06 - Getting Started with Google Kubernetes Engine by Google</li>
@@ -393,10 +393,39 @@
             <p></p>
           </div>
         </div>
-		<hr>
+		
       </div>
     </section>
+	
+	<hr class="m-0">
 
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="contact">
+      <div class="w-100">
+		<h2 class="mb-5">☎️ Contact</h2>
+
+        <div class="my-5"><i class="fas fa-map-marked-alt"></i>  Bangalore, Karnataka, India</div>
+		
+		<div class="my-5"><i class="fas fa-at"></i><a href="mailto:hello@rajanand.org">  hello@rajanand.org</a></div>
+		
+        <div class="social-icons">
+          <a href="http://link.rajanand.org/linkedin">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="http://link.rajanand.org/github">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="http://link.rajanand.org/twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="http://link.rajanand.org/facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="http://link.rajanand.org/music">
+            <i class="fas fa-music"></i>
+          </a> 		  
+        </div>
+      </div>
+    </section>
   </div>
 
   <!-- Bootstrap core JavaScript -->
