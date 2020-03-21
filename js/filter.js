@@ -28,9 +28,9 @@ https://www.w3schools.com/howto/howto_js_active_element.asp
     // Loop through the buttons and add the active class to the clicked button
     for (var i = 0; i < buttons.length; i++) {
       buttons[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("btn-primary");
-        current[0].className = current[0].className.replace(" btn-primary", "");
-        this.className += " btn-primary";
+        var current = document.getElementsByClassName("btn-warning");
+        current[0].className = current[0].className.replace(" btn-warning", "");
+        this.className += " btn-warning";
       });
     }
     });
