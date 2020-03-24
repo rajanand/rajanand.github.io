@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="MS Dhoni's cricketing career">
+    <meta name="author" content="Rajanand Ilangovan">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+    <title>MS Dhoni - Tableau data visulaization</title>
+
+    <link rel="canonical" href="https://rajanand.org">
+
+    <!-- Bootstrap core CSS -->
+    <link href="./../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this album template -->
+    <link href="./../../css/contact.css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-89455391-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-89455391-1');
+    </script>
+
+    <!-- Tableau viz embed -->
+    <script type="text/javascript" src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script src="./../../js/tableau.js"></script>
+      
+  </head>
+
+<body onload="initViz();">
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-primary sticky-top">
+        <div class="container">
+        <a class="navbar-brand" href="./index.html">Rajanand Ilangovan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbars">
+            <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://writing.rajanand.org">Blog</a></li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="dataviz" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data viz</a>
+                <div class="dropdown-menu" aria-labelledby="dataviz">
+                    <a class="dropdown-item" href="/dataviz/tableau/ms-dhoni">MS Dhoni</a>
+                </div>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="/datasets">Datasets</a></li>
+            <li class="nav-item"><a class="nav-link" href="/certifications">Certifications</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>    
+
+    <div class="col-md-12 mt-3">
+        <div class="card card-chart mx-auto">
+            <div class="card-header">
+                <h4 class="card-body">MS Dhoni's Cricket career</h4>
+                <p class="card-category"></p>    
+            </div>
+            <div class="card-body">
+                <div id="msdhoni"></div>
+            </div>
+            <div class="card-footer">
+                    <div class="m-2 d-inline-block text-center alert alert-info alert-link" role="alert">Check this visulaization in <a href="https://link.rajanand.org/tableau-msdhoni" target="_blank">Tableau Public!</a></div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-muted mt-2">
+      <div class="container">
+        <p>&copy; 2020 Rajanand Ilangovan</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js"></script>
+    <script src="./../../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
