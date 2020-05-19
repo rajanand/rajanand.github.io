@@ -60,7 +60,8 @@
       <section class="jumbotron text-center">
         <div class="container">
           <h1 class="jumbotron-heading">Certifications & Courses</h1>
-          <p class="lead text-muted">I have started taking MOOC's since 2013 and have completed various courses since then. This page contains the list of all the courses and certifications I have completed.</p>
+          <p class="lead text-muted">I have started taking MOOC's since 2013 and have completed various courses since then. This page contains the list of all the courses and certifications I have completed. 
+		  <br> certification != experience </p>
           <p>
             <a href="https://link.rajanand.org/box-certifications" target="_blank" class="btn btn-primary my-2">Certifications</a>
             <a href="https://link.rajanand.org/box-courses" target="_blank" class="btn btn-warning my-2">Courses</a>
@@ -71,7 +72,7 @@
       <div class="course py-5 bg-light">
         <div class="container">
             <div id="filter-div" align="center">
-                <button class="btn filter-button" data-filter="all">All <span class="badge badge-dark badge-pill">86</span></button>
+                <button class="btn filter-button" data-filter="all">All <span class="badge badge-dark badge-pill">87</span></button>
                 <button class="btn filter-button" data-filter="certifications">Certifications</button>
                 <button class="btn filter-button" data-filter="courses">Courses</button>
 				<button class="btn filter-button" data-filter="bi">BI</button>
@@ -79,8 +80,9 @@
 				<button class="btn filter-button" data-filter="data">Data</button>
                 <button class="btn filter-button" data-filter="coursera">Coursera</button>
                 <button class="btn filter-button" data-filter="edx">Edx</button>
+				<button class="btn filter-button" data-filter="futurelearn">Future Learn</button>
                 <button class="btn filter-button" data-filter="datacamp">DataCamp</button>
-				<!-- <button class="btn filter-button" data-filter="pluralsight">Pluralsight</button> -->
+				<button class="btn filter-button" data-filter="pluralsight">Pluralsight</button>
                 <button class="btn filter-button" data-filter="acloudguru">A Cloud Guru</button>
                 <button class="btn filter-button" data-filter="linkedin">LinkedIn</button>
 				<button class="btn filter-button" data-filter="skillsoft">Skillsoft</button>
@@ -91,13 +93,34 @@
 
                 <div class="col-md-4 filter certifications data exasol">
                     <div class="card mb-4 box-shadow bg-primary text-white">
+                      <img class="card-img-top img-thumbnail" src="img/certifications/exasol-certified-performance-expert.png" alt="Exasol Certified Performance Expert Badge">
+                      <div class="card-body">
+                          
+                          <p class="card-text">Exasol Certified Performance Expert</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                  <a href="documents/certifications/exasol-certified-performance-expert.pdf" target="_blank" class="btn btn-sm btn-outline-light">📃</a>
+                              </div>
+                              <div class="btn-group">
+                                  <button type="button" class="btn filter-button btn-sm btn-outline-light" data-filter="exasol">Exasol</button>
+                              </div>
+                          </div>                          
+                        </div>
+                        <div class="card-footer text-center">
+                            <small class="card-text">19-05-2020</small>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="col-md-4 filter certifications data exasol">
+                    <div class="card mb-4 box-shadow bg-primary text-white">
                       <img class="card-img-top img-thumbnail" src="img/certifications/exasol-certified-associate.png" alt="Exasol Certified Associate Badge">
                       <div class="card-body">
                           
                           <p class="card-text">Exasol Certified Associate</p>
                           <div class="d-flex justify-content-between align-items-center">
                               <div class="btn-group">
-                                  <a href="documents/certifications/exasol-certified-associate.pdf" target="_blank" class="btn btn-sm btn-outline-light">🔗</a>
+                                  <a href="documents/certifications/exasol-certified-associate.pdf" target="_blank" class="btn btn-sm btn-outline-light">📃</a>
                               </div>
                               <div class="btn-group">
                                   <button type="button" class="btn filter-button btn-sm btn-outline-light" data-filter="exasol">Exasol</button>
@@ -223,7 +246,24 @@
                         </div>
                     </div>
 
-
+                    <div class="col-md-4 filter courses futurelearn">
+                        <div class="card mb-4 box-shadow">
+                          <img class="card-img-top img-thumbnail" src="img/courses/119-futurelearn-digital-skills-social-media.JPG" alt="Digital Skills: Social Media">
+                          <div class="card-body">
+                            <p class="card-text">Digital Skills: Social Media (2020-05-11)</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                              <div class="btn-group">
+                                  <a href="https://link.rajanand.org/119" target="_blank" class="btn btn-sm btn-outline-primary">🔗</a>
+								  <a href="documents/courses/119-futurelearn-digital-skills-social-media.pdf" target="_blank" class="btn btn-sm btn-outline-primary">📃</a>
+                              </div>
+                              <div class="btn-group">
+                                  <button type="button" class="btn filter-button btn-sm btn-outline-primary" data-filter="futurelearn">Future Learn</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+					
                     <div class="col-md-4 filter courses skillsoft bi">
                         <div class="card mb-4 box-shadow">
                           <img class="card-img-top img-thumbnail" src="img/courses/104-skillsoft-data-visualization-essentials.png" alt="Data Visualization Essentials">
